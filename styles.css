@@ -1,7 +1,7 @@
 
-/* body {
-  margin: 1rem;
-} */
+body {
+  margin: auto;
+}
 
 .background-1 {
   background-color: #5ce1e6;
@@ -29,7 +29,7 @@
 /*********** top section ********/
 
 .top-section {
-  margin: 5rem 3rem;
+  margin: 10rem 3rem;
   line-height: 0.5;
 }
 
@@ -56,7 +56,7 @@
 .image-1 {
   height: 23rem;
   width: 23rem;
-  margin-left: 7rem;
+  margin: auto;
 }
 
 .button-1 {
@@ -98,30 +98,21 @@
   font-family: 'Roboto', sans-serif;
   font-size: 1rem;
   font-style: oblique;
-  text-align: right;
+  text-align: left;
   line-height: 1;
   /* position: relative;
   bottom: 3rem; */
 }
 
-@media (max-width: 990px) {
 
-  .button-1 {
-    margin: 4rem 12rem .5rem;
-  }
 
-  .descr {
-    margin-top: 2rem;
-    text-align: left;
 
-  }
-}
 
 
 /******** PORTFOLIO PAGE *********/
 
 .navbar {
-  padding: 1rem 8rem;
+  margin: 0 auto;
 }
 
 .body-portfolio {
@@ -212,4 +203,51 @@ a {
 
 a:hover {
   color: #00c2cb;
+}
+
+/********** media breakpoint ***********/
+
+@media (max-width: 777px) {
+
+  /*** top section ***/
+
+  .letters {
+    font-size: 3.2rem;
+  }
+
+  .font-2 {
+    font-size: 1.2rem;
+  }
+
+  .image-1 {
+    height: 15rem;
+    width: 15rem;
+  }
+
+  .right-align {
+    text-align: right;
+    width: 8rem;
+  }
+
+  /*** portfolio page ***/
+
+
+}
+
+@media (max-width: 763px) {
+
+  /*** top section ***/
+
+  .descr {
+    margin-top: 2rem;
+    text-align: left;
+  }
+
+  .link {
+    font-size: 1.5rem;
+  }
+
+  /*** portfolio page ***/
+
+
 }
